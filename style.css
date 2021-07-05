@@ -3,8 +3,10 @@ body {
   margin: 0;
 }
 
-.section1 {
+.flix {
   display: flex;
+}
+.section1 {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
@@ -21,11 +23,16 @@ body {
 .orange {
   color: rgb(24, 96, 230);
 }
-.welcome a {
+.batton-link {
   text-decoration: none;
   background-image: linear-gradient(coral, orange);
   padding: 10px 30px;
   color: white;
   font-weight: 700;
   border-radius: 5px;
+}
+.section2 {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
