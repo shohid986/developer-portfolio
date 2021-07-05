@@ -36,3 +36,41 @@ body {
   background-repeat: no-repeat;
   background-position: right;
 }
+.experiences-item {
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 5%;
+
+  box-shadow: 10px 10px 40px gray;
+  text-align: center;
+  padding: 20px;
+}
+.text-light {
+  font-size: 20px;
+}
+.experiences-container {
+  font-size: 150%;
+  padding-bottom: 250px;
+}
+.section3 {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#experiences-baby-web {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#experiences-stack-web {
+  border-left: 7px solid;
+  border-image: linear-gradient(coral, orange);
+  border-image-slice: 1;
+}
+.footer-area {
+  text-align: center;
+}
+.advance {
+  font-size: 20px;
+  margin-bottom: 35px;
+}
