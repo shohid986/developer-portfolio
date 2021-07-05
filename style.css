@@ -1,0 +1,31 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  margin: 0;
+}
+
+.section1 {
+  display: flex;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.welcome h1 {
+  font-size: 50px;
+}
+.half-width {
+  width: 50%;
+  padding: 5%;
+}
+.image-width img {
+  width: 95%;
+}
+.orange {
+  color: rgb(24, 96, 230);
+}
+.welcome a {
+  text-decoration: none;
+  background-image: linear-gradient(coral, orange);
+  padding: 10px 30px;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+}
